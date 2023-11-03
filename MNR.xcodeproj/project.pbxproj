@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AC9E8CF12AF4F334002F0993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8CF02AF4F334002F0993 /* AppDelegate.swift */; };
 		AC9E8CF32AF4F334002F0993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8CF22AF4F334002F0993 /* SceneDelegate.swift */; };
-		AC9E8CF52AF4F334002F0993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8CF42AF4F334002F0993 /* ViewController.swift */; };
-		AC9E8CF82AF4F334002F0993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9E8CF62AF4F334002F0993 /* Main.storyboard */; };
+		AC9E8CF52AF4F334002F0993 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8CF42AF4F334002F0993 /* ProductsViewController.swift */; };
 		AC9E8CFA2AF4F335002F0993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9E8CF92AF4F335002F0993 /* Assets.xcassets */; };
 		AC9E8CFD2AF4F335002F0993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9E8CFB2AF4F335002F0993 /* LaunchScreen.storyboard */; };
+		AC9E8D052AF51335002F0993 /* ProdunctViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8D042AF51335002F0993 /* ProdunctViewModel.swift */; };
+		AC9E8D072AF5266F002F0993 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8D062AF5266F002F0993 /* AppCoordinator.swift */; };
+		AC9E8D092AF5280F002F0993 /* ChildCoordinator .swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8D082AF5280F002F0993 /* ChildCoordinator .swift */; };
+		AC9E8D0C2AF52BE8002F0993 /* ProduntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E8D0B2AF52BE8002F0993 /* ProduntView.swift */; };
+		CAED9DB9494A973863498468 /* Pods_MNR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C10C5AE1ED95702D28ED4F /* Pods_MNR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44C10C5AE1ED95702D28ED4F /* Pods_MNR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A18626A7C67D9440E670FE /* Pods-MNR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNR.debug.xcconfig"; path = "Target Support Files/Pods-MNR/Pods-MNR.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9E8CED2AF4F334002F0993 /* MNR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9E8CF02AF4F334002F0993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9E8CF22AF4F334002F0993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC9E8CF42AF4F334002F0993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC9E8CF72AF4F334002F0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9E8CF42AF4F334002F0993 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		AC9E8CF92AF4F335002F0993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9E8CFC2AF4F335002F0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9E8CFE2AF4F335002F0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9E8D042AF51335002F0993 /* ProdunctViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdunctViewModel.swift; sourceTree = "<group>"; };
+		AC9E8D062AF5266F002F0993 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AC9E8D082AF5280F002F0993 /* ChildCoordinator .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChildCoordinator .swift"; sourceTree = "<group>"; };
+		AC9E8D0B2AF52BE8002F0993 /* ProduntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduntView.swift; sourceTree = "<group>"; };
+		FFBE76A9714AC4F66B2EB033 /* Pods-MNR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNR.release.xcconfig"; path = "Target Support Files/Pods-MNR/Pods-MNR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAED9DB9494A973863498468 /* Pods_MNR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A061F9123B38A8E4CF066B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C10C5AE1ED95702D28ED4F /* Pods_MNR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC9E8CE42AF4F334002F0993 = {
 			isa = PBXGroup;
 			children = (
 				AC9E8CEF2AF4F334002F0993 /* MNR */,
 				AC9E8CEE2AF4F334002F0993 /* Products */,
+				D5B484B0B1982C18066C94B2 /* Pods */,
+				9A061F9123B38A8E4CF066B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,33 @@
 			children = (
 				AC9E8CF02AF4F334002F0993 /* AppDelegate.swift */,
 				AC9E8CF22AF4F334002F0993 /* SceneDelegate.swift */,
-				AC9E8CF42AF4F334002F0993 /* ViewController.swift */,
-				AC9E8CF62AF4F334002F0993 /* Main.storyboard */,
+				AC9E8D0A2AF52939002F0993 /* Coordinators */,
+				AC9E8CF42AF4F334002F0993 /* ProductsViewController.swift */,
+				AC9E8D0B2AF52BE8002F0993 /* ProduntView.swift */,
+				AC9E8D042AF51335002F0993 /* ProdunctViewModel.swift */,
 				AC9E8CF92AF4F335002F0993 /* Assets.xcassets */,
 				AC9E8CFB2AF4F335002F0993 /* LaunchScreen.storyboard */,
 				AC9E8CFE2AF4F335002F0993 /* Info.plist */,
 			);
 			path = MNR;
+			sourceTree = "<group>";
+		};
+		AC9E8D0A2AF52939002F0993 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E8D062AF5266F002F0993 /* AppCoordinator.swift */,
+				AC9E8D082AF5280F002F0993 /* ChildCoordinator .swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D5B484B0B1982C18066C94B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A18626A7C67D9440E670FE /* Pods-MNR.debug.xcconfig */,
+				FFBE76A9714AC4F66B2EB033 /* Pods-MNR.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9E8D012AF4F335002F0993 /* Build configuration list for PBXNativeTarget "MNR" */;
 			buildPhases = (
+				061B495B5C18489BD82898A7 /* [CP] Check Pods Manifest.lock */,
 				AC9E8CE92AF4F334002F0993 /* Sources */,
 				AC9E8CEA2AF4F334002F0993 /* Frameworks */,
 				AC9E8CEB2AF4F334002F0993 /* Resources */,
+				AE27FFD4EB779C8E66B8FBB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +170,71 @@
 			files = (
 				AC9E8CFD2AF4F335002F0993 /* LaunchScreen.storyboard in Resources */,
 				AC9E8CFA2AF4F335002F0993 /* Assets.xcassets in Resources */,
-				AC9E8CF82AF4F334002F0993 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		061B495B5C18489BD82898A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE27FFD4EB779C8E66B8FBB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNR/Pods-MNR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNR/Pods-MNR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNR/Pods-MNR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC9E8CE92AF4F334002F0993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9E8CF52AF4F334002F0993 /* ViewController.swift in Sources */,
+				AC9E8CF52AF4F334002F0993 /* ProductsViewController.swift in Sources */,
 				AC9E8CF12AF4F334002F0993 /* AppDelegate.swift in Sources */,
+				AC9E8D092AF5280F002F0993 /* ChildCoordinator .swift in Sources */,
+				AC9E8D072AF5266F002F0993 /* AppCoordinator.swift in Sources */,
 				AC9E8CF32AF4F334002F0993 /* SceneDelegate.swift in Sources */,
+				AC9E8D0C2AF52BE8002F0993 /* ProduntView.swift in Sources */,
+				AC9E8D052AF51335002F0993 /* ProdunctViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC9E8CF62AF4F334002F0993 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC9E8CF72AF4F334002F0993 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC9E8CFB2AF4F335002F0993 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,19 +367,22 @@
 		};
 		AC9E8D022AF4F335002F0993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A18626A7C67D9440E670FE /* Pods-MNR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Q96AG2X9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MNR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,27 +390,33 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "norina-sofia.MNR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC9E8D032AF4F335002F0993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBE76A9714AC4F66B2EB033 /* Pods-MNR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Q96AG2X9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MNR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +424,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "norina-sofia.MNR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
